@@ -1,0 +1,205 @@
+.section1 {
+    height: 1200px;
+    width: 300px;
+    background-color:grey;
+    padding:10px;
+}
+.section1 img {
+    width: 80%; /* Adjust width to fit the circle inside the container */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 50%; /* Creates the circular frame */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border: 2px solid black; /* Optional: adds a border around the image */
+    margin-top:10%;
+}
+.image-text-container {
+    display: flex; /* Aligns image and text in a row */
+    align-items: center; /* Vertically centers the text with the image */
+    padding-left: 40px;
+    margin-top:-55px;
+   color:white;
+
+   /* Optional: aligns the entire container with padding */
+}
+
+#image2 {
+    width: 30px; /* Use a fixed size for better alignment */
+    height: 30px; /* Maintain a consistent aspect ratio */
+    object-fit: cover; /* Ensures the image fits within the defined dimensions */
+    margin-right: 10px; /* Adds space between the image and text */
+    border: none; /* Removes any border around the image */
+}
+
+
+.image-text-container2 {
+    display: flex; /* Aligns image and text in a row */
+    align-items: center; /* Vertically centers the text with the image */
+    padding-left: 40px;
+    margin-top: -50px; /* Adjust this value to move the container upward */
+    color:white;
+}
+
+#image3 {
+    width: 30px; /* Use a fixed size for better alignment */
+    height: 30px; /* Maintain a consistent aspect ratio */
+    object-fit: cover; /* Ensures the image fits within the defined dimensions */
+    margin-left: 1px; /* Adds space between the image and text */
+    border: none; /* Removes the default border */
+    margin-top: 10px;
+
+}
+.image-text-container3 {
+    display: flex; /* Aligns image and text in a row */
+    align-items: center; /* Vertically centers the text with the image */
+    padding-left: 40px;
+    margin-top: -50px; /* Adjust this value to move the container upward */
+    color:white;
+}
+
+#image4 {
+    width: 30px; /* Use a fixed size for better alignment */
+    height: 30px; /* Maintain a consistent aspect ratio */
+    object-fit: cover; /* Ensures the image fits within the defined dimensions */
+    margin-left: 1px; /* Adds space between the image and text */
+    border: none; /* Removes the default border */
+    margin-top: 10px;
+
+}
+#head1{
+color:white;
+}
+#head4{
+color:white;
+}
+.education{
+color:white
+}
+.name{
+ height: 300px;
+    width: 1000px;
+    background-color:lavender;
+    padding:10px;
+    margin-left:320px;
+    margin-top:-1100px;
+
+}
+#head2{
+font-size:80px;
+text-align:center;
+}
+#head3{
+font-size:30px;
+text-align:center;
+margin-top:-40px;
+}
+.experience{
+ margin-left:400px;
+ .experience {
+  white-space: nowrap; /* Prevents text from breaking to a new line */
+}
+
+}
+.experience hr {
+    border: none !important; /* Remove any default border */
+    border-top: 2px solid black !important; /* Specify the line style */
+    margin-left:500px;
+    color:black;
+
+}
+.hor1{
+color:black;
+}
+.experience hr {
+  border: none; /* Remove default border styling */
+  border-top: 2px solid black; /* Add a solid black line */
+  margin: 10px 0; /* Add spacing around the line */
+  width: 100%; /* Make sure the line spans the container */
+}
+#hor1 {
+  border: none; /* Remove the default border */
+  border-top: 2px solid black; /* Set the color and style of the line */
+  /* Add some spacing around the line */
+  width: 50%; /* Ensure the line spans the container */
+  margin-left:400px;
+  margin-top:-10px;
+}
+.exp {
+  margin-left: 400px;
+  white-space: nowrap; /* Prevents text from wrapping */
+
+  text-overflow: ellipsis; /* Adds an ellipsis (...) if the text is too long */
+
+  display: flex;
+  gap: 80px; /* Adds 20px of horizontal space between each item */
+}
+.exp span {
+  margin-left: 400px; /* Adds a 20px gap to the right of each span */
+}
+.exp2 {
+  margin-left: 400px;
+  white-space: nowrap; /* Prevents text from wrapping */
+
+  text-overflow: ellipsis; /* Adds an ellipsis (...) if the text is too long */
+
+  display: flex;
+  gap: 80px; /* Adds 20px of horizontal space between each item */
+}
+.exp2 span {
+  margin-left: 530px; /* Adds a 20px gap to the right of each span */
+}
+.exp3 {
+  margin-left: 400px;
+  white-space: nowrap; /* Prevents text from wrapping */
+
+  text-overflow: ellipsis; /* Adds an ellipsis (...) if the text is too long */
+
+  display: flex;
+  gap: 80px; /* Adds 20px of horizontal space between each item */
+}
+.exp3 span {
+  margin-left: 370px; /* Adds a 20px gap to the right of each span */
+}
+#hor2 {
+  border: none; /* Remove the default border */
+  border-top: 2px solid black; /* Set the color and style of the line */
+  /* Add some spacing around the line */
+  width: 30%; /* Ensure the line spans the container */
+  margin-left:400px;
+  margin-top:-10px;
+}
+#hor3 {
+  border: none; /* Remove the default border */
+  border-top: 2px solid black; /* Set the color and style of the line */
+  /* Add some spacing around the line */
+  width: 60%; /* Ensure the line spans the container */
+  margin-left:400px;
+  margin-top:-10px;
+}
+#para{
+margin-left:90px;
+}
+#hor4 {
+  border: none; /* Remove the default border */
+  border-top: 2px solid black; /* Set the color and style of the line */
+  /* Add some spacing around the line */
+  width: 40%; /* Ensure the line spans the container */
+  margin-left:400px;
+  margin-top:-10px;
+}
+#para3{
+margin-left:-25px;
+}
+#para4{
+margin-left:170px;
+}
+#hor5 {
+  border: none; /* Remove the default border */
+  border-top: 2px solid black; /* Set the color and style of the line */
+  /* Add some spacing around the line */
+  width: 90%; /* Ensure the line spans the container */
+  margin-left:400px;
+  margin-top:-10px;
+}
+#para5{
+margin-left:-70px;
+}
